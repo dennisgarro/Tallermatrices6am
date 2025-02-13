@@ -15,6 +15,11 @@ public class principal {
                 int suma = p1.SumaMatriz(d);
                 System.out.println("la suma de la matriz es: " + suma);
                 break;
+            case 2:
+                punto2 p2 = new punto2();
+                int Mayor = p2.MayorMatriz(d);
+                System.out.println("el valor mayor en la matriz es: " + Mayor);
+                break;
 
             default:
                 System.out.println("pagina en mantenimiento");
