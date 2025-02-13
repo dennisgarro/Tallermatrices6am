@@ -11,7 +11,9 @@ public class principal {
         opt = sc.nextInt();
         switch (opt) {
             case 1:
-                System.out.println("es el punto 1");
+                punto1 p1 = new punto1();
+                int suma = p1.SumaMatriz(d);
+                System.out.println("la suma de la matriz es: " + suma);
                 break;
 
             default:
