@@ -26,4 +26,16 @@ public class metodos {
         return suma;
 
     }
+
+    public int MayorMatriz(int[][] m) {
+        int Mayor = 0;
+        for (int i = 0; i < m.length; i++) {
+            for (int j = 0; j < m.length; j++) {
+                if (Mayor < m[i][j]) {
+                    Mayor = m[i][j];
+                }
+            }
+        }
+        return Mayor;
+    }
 }
